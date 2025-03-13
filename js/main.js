@@ -140,7 +140,7 @@ function updateCanvas() {
                 collisionDetected = true;
                 resolveCollision(circles[i], circles[j]);
                 // Crear un nuevo objeto de Audio para cada colisión, permitiendo sonidos simultáneos
-                const sonido = new Audio("assets/audio/quack.mp3");
+                const sonido = new Audio("./assets/audio/quack.mp3");
                 sonido.play();
             }
         }
